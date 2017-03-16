@@ -1,3 +1,10 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-It allows a repo to be ready for git. By initializing it, a repo becomes tracked and ready for commits.
+It allows a repo to be ready for git. By initializing it, a repo becomes
+tracked and ready for commits.
+
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+It creates an intermediate stage for changes to be seen before a commit
+is made.
