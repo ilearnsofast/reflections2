@@ -1,0 +1,56 @@
+How did viewing a diff between two versions help you spot the bug?
+
+By comparing two versions of a file where there are errors/changes on a
+line by line basis, I was able to spot the changes and potential bugs
+efficiently and accurately without fear of missing other details/changes.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+By having the entire history of a file and making incremental changes to
+a project in progress, a programmer can reflect and observe on effective
+changes to a project, as well as reverting back to older versions 
+whenever crashes or bugs are encountered. With such a sophisticated way
+of tackling a complicated project, the efficient programmer can save time
+on manual efforts to locating changed codes.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+One can choose to commit at a logical checkpoint instead of relying on 
+automatic saving which can mean runtime errors if one was in the middle
+of a logical change. To prevent the possible disadvantage of forgetting
+to commit, one should commit as frequently as logical changes are made
+to ensure each change is a meaningful size.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Perhaps google is not focused on the version controlling aspect of 
+Google Docs, likely due to the fact that Google doc is used mostly to 
+cooperate on group work simultaneously and requires no such delicate 
+version control optimization.
+
+
+How can you use the commands git log and git diff to view the history
+of files?
+
+Git log allows a user to view all the commits that has been pushed to 
+git and git diff allows a user to compare the differences between two 
+commits.
+
+
+How might using version control make you more confient to make changes
+that could break something?
+
+With all previous changes freely available to be reverted back to when a 
+mistake is made, one can confidently progress through a project without
+fear of breaking anything. When anything is broken, just compare it 
+using git diff with an older version and see what might have caused the.
+crash/error.
+
+
+Now that you have your workspace set up, what do you want to try using 
+Git for?
+
+I will start using it for all of my complicated projects.
