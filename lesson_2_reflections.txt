@@ -30,3 +30,9 @@ file's path. For example, with the easy-mode branch, one can freely
 experiment the level of easiness to adjust the game to without fear of 
 confusing the original code with the new code because they are in 
 different branches.
+
+
+How do the diagrams help you visualize the branch structure?
+It allows visual understanding towards where each branch leads to, 
+which commits are reachable and which commits are not.
+
