@@ -3,8 +3,30 @@ What happens when you initialize a repository? Why do you need to do it?
 It allows a repo to be ready for git. By initializing it, a repo becomes
 tracked and ready for commits.
 
+
 How is the staging area different from the working directory and the
 repository? What value do you think it offers?
 
 It creates an intermediate stage for changes to be seen before a commit
 is made.
+
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+Check staging area with working directory frequently to monitor changes.
+As soon as a logical change is made, add it to the staging area and use 
+git diff to check out the differences between the two. Then if the
+change represents one logical change, use git commit to add another
+commit to the repository.
+
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Branches would be especially useful for trying out a new mode or new 
+language of the original code base without diverging from the original
+file's path. For example, with the easy-mode branch, one can freely 
+experiment the level of easiness to adjust the game to without fear of 
+confusing the original code with the new code because they are in 
+different branches.
