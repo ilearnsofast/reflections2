@@ -36,3 +36,11 @@ How do the diagrams help you visualize the branch structure?
 It allows visual understanding towards where each branch leads to, 
 which commits are reachable and which commits are not.
 
+
+What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do?
+
+Merging two branches together allows the user to use git log on the new 
+node to explore all of the previous commits formatted by timestamp. 
+One can also use git show commitid to find compare the difference 
+between the commitid and its parent. 
