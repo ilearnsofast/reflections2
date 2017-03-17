@@ -1,0 +1,4 @@
+When would you want to create a remote repository rather than keeping all your work local?
+
+As soon as I envision that I might have to work on a project while on the go. It allows me to easily start from where I left off, continue,
+as well as fetch the changes and progress back to my primary work machine when I am done traveling.
